@@ -38,11 +38,15 @@ pip install numpy matplotlib
 
 ## Output
 - Prints execution times (in milliseconds) for each thread count (1 to 8).
-- Displays a graph showing execution time vs. number of threads.
-
+- Displays two graphs:
+   1. **Execution Time vs. Number of Threads**: The time taken for matrix multiplication with different thread counts.
+   2. **CPU Usage Before and After Computation**: The CPU usage before and after the computation for different thread counts.
 ---
 
 ## Result
+- **Execution Time vs. Number of Threads**: Shows the impact of thread count on execution time for matrix multiplication.
+- **CPU Usage**: Displays how CPU usage changes before and after the matrix multiplication process.
+
 ![myplot.png](myplot.png)
 
 ---
